@@ -10,7 +10,7 @@ let products = [];
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.post('/book', (req, res) => {
+app.post('/product', (req, res) => {
     // We will be coding here
 });
 
